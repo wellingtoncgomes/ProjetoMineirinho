@@ -98,7 +98,7 @@ async function obtemDados(collection) {
           }
       })
   })
-  async function carregaComentarios(collection) {
+   async function carregaComentarios(collection) {
     let spinner = document.getElementById('carregandoDados');
     
     try {
@@ -111,7 +111,7 @@ async function obtemDados(collection) {
         }
 
         // Convertendo os comentários em um array e ordenando-os
-        const comments = Object.values(commentsObj).sort((a, b) => new Date(a.date) - new Date(b.date));
+        const comments = Object.values(commentsObj)
       
         comments.forEach(function(comment) {
             // Formatar a data e o horário
@@ -120,9 +120,9 @@ async function obtemDados(collection) {
             // Criar uma string com as informações formatadas
             var commentHTML = `
                 <h6 class="w3-text-indigo">
-                    <i class="fa fa-user fa-fw w3-margin-right">${comment.client}</i>
+                    <i class="fa fa-user fa-fw w3-margin-right">${comment.nome}</i>
                 </h6>
-                <p>${comment.assessment}</p>
+                <p>${comment.descricao}</p>
                 <hr>`;
     
             // Criar um elemento <li> com o texto formatado e adicionar à lista
@@ -137,5 +137,3 @@ async function obtemDados(collection) {
         spinner.classList.add('d-none'); //oculta o carregando...
     }
 }
-
-
