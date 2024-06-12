@@ -25,7 +25,7 @@ Projeto em HTML, CSS e Vanilla Javascript que implementa um pequeno CRUD. (São 
   <img alt="Firebase" src="https://img.shields.io/badge/Firebase-F29D0C?style=for-the-badge&logo=firebase&logoColor=white"> 
 
 
-</p>
+</p
 
 # 🧠 Contexto
 
@@ -57,7 +57,7 @@ service cloud.firestore {
 }
 ```
 
-- [ ] Abra o arquivo index.html no seu navegador, crie um novo usuário e navegue pelo seu CRUD! (ou se preferir, instale o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) no VS Code, clique com o botão direito dentro do arquivo index.html e selecione Open with Live Server)
+
 
 ## 🌐 Veja uma demonstração online do projeto. 
 
@@ -65,28 +65,9 @@ Utilize a sua conta Google para efetuar o Login, ou cadastre um novo usuário.
 
 https://ricardoleme.github.io/crud-firebase-v9-vanilla-js/
 
-## 📷 Imagens do Projeto
-![Login](images/login.png "Login com Usuário e Senha ou Login via Google")
-![Novo Usuário](images/novousuario.png "UI do Cadastro de um novo usuário (integrado ao Firebase v.9)")
-![Menu Inicial](images/menuinicial.png "UI do Menu Inicial")
-![Cadastro de Clientes](images/clientes.jpg "UI do Cadastro de Clientes (integrado ao Firebase v.9)")
+
 
 ## 📚 Inspirações
 - https://github.com/GCMoura/first-crud-firebase
 - https://github.com/ArefinAnwar/todo-crud_firebaseSDK9
 
-## 💬 Contato
-
-Prof. Ms. Ricardo Leme <br>
-<a href="https://www.linkedin.com/in/ricardo-leme/" target="_blank">
-  <img alt="Linkedin" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-</a>
-<a href="mailto:ricardo.leme@fatec.sp.gov.br" target="_blank">
-  <img alt="Linkedin" src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white">
-</a>
-
-## 📝 Licença
-
-Esse projeto está sob a licença Apache. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
----
-Made with 💜, HTML, CSS and only Vanilla JS. 
